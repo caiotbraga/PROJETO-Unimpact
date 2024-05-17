@@ -1,3 +1,10 @@
+.corTexto{
+	color: black;
+}
+
+.corTexto:hover{
+	color: #8453B3;
+}
 
 .btn-roxo-e{
 
