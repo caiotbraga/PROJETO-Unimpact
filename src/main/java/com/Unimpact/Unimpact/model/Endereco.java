@@ -1,4 +1,4 @@
-package com.Unimpact.Unimpact.models;
+package com.unimpact.unimpact.model;
 
 public class Endereco {
     private String cep;
