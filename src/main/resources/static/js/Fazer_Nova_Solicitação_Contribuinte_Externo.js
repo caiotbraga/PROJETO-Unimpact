@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         checkbox.addEventListener('change', function() {
             const checkedCheckboxes = document.querySelectorAll('.option-checkbox:checked');
             if (checkedCheckboxes.length > maximoPermitido) {
+				this.checked = false
                 mostrarMensagem('Você só pode selecionar até duas opções.');
             } else {
                 apagarMensagem();
