@@ -66,10 +66,18 @@ h4, p{
 	color: #8453B3;
 }
 
+h6{
+	margin-top: 25px;
+}
+
 .negrito{
 	font-weight: bolder;
 }
 
 #footer_unicap{
     background-color: #690013;
+}
+
+.caixa-subforms{
+	margin-top: 10px;
 }

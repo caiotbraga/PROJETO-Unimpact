@@ -136,17 +136,178 @@
                 <form>
                     VOCÊ REPRESENTA ALGUMA INSTITUIÇÃO?
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                        <label class="form-check-label" for="exampleRadios1">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="radio-sim" value="option1" onclick="divPessoaJuridica()">
+                        <label class="form-check-label" for="radio-sim">
                           SIM
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="radio-nao" value="option2" onclick="divPessoaJuridica()">
+                        <label class="form-check-label" for="radio-nao">
                           NÃO
                         </label>
                       </div>
+
+                      <div style="display: none;" id="cadastro-juridico">
+                      	
+
+                      	<h6>SOBRE A INSTITUIÇÃO</h6>
+
+	                      <div class="form-row">
+	                      	
+	                      	<div class="col-md">
+
+	                      		<label for="razao-social">RAZÃO SOCIAL</label>
+	                      		<input type="text" id="razao-social" class="form-control" required>
+	                      		
+	                      	</div>
+
+	                      	<div class="col-md">
+	                      		
+	                      		<label for="nome-fantasia">NOME FANTASIA</label>
+	                      		<input type="text" id="nome-fantasia" class="form-control">
+
+
+	                      	</div>
+
+	                      	<div class="col-md">
+	                      		
+	                      		<label for="cnpj">CNPJ</label>
+	                      		<input type="text" id="cnpj" class="form-control" required>
+
+
+	                      	</div>
+
+	                      </div>
+
+	                      <div class="form-row caixa-subforms">
+	                      	
+	                      	<div class="col-md">
+
+	                      		<label for="telefone1">TELEFONE 1</label>
+	                      		<input type="text" id="telefone1" class="form-control" required>
+
+	                      	</div>
+
+	                      	<div class="col-md">
+
+	                      		<label for="telefone2">TELEFONE 2</label>
+	                      		<input type="text" id="telefone2" class="form-control">
+	                      		
+
+	                      	</div>
+
+	                      	<div class="col-md">
+	                      		
+	                      		<label for="tipo-instituicao">TIPO DE INSTITUIÇÃO</label>
+	                      		<input type="text" id="tipo-instituicao" class="form-control" required>
+
+	                      	</div>
+
+
+	                      </div>
+
+	                      <h6>ENDEREÇO</h6>
+
+	                      <div class="form-row">
+
+
+	                      	<div class="col-md-2">
+	                      		
+	                      		<label for="cep">CEP</label>
+	                      		<input type="text" id="cep" class="form-control" required>
+
+
+	                      	</div>
+
+	                      	<div class="col-md-8">
+	                      		
+	                      		<label for="rua">RUA</label>
+	                      		<input type="text" id="rua" class="form-control" required>
+
+
+	                      	</div>
+
+	                      	<div class="col-md-2">
+	                      		
+	                      		<label for="estado">ESTADO</label>
+									<select id="estado" class="form-control" required>
+										
+										<option selected></option>
+										<option>AC</option>
+										<option>AL</option>
+										<option>AP</option>
+										<option>AM</option>
+										<option>BA</option>
+										<option>CE</option>
+										<option>ES</option>
+										<option>GO</option>
+										<option>MA</option>
+										<option>MT</option>
+										<option>MS</option>
+										<option>MG</option>
+										<option>PA</option>
+										<option>PB</option>
+										<option>PR</option>
+										<option>PE</option>
+										<option>PI</option>
+										<option>RJ</option>
+										<option>RN</option>
+										<option>RS</option>
+										<option>RO</option>
+										<option>RR</option>
+										<option>SC</option>
+										<option>SP</option>
+										<option>SE</option>
+										<option>TO</option>
+										<option>DF</option>
+
+
+									</select>
+
+
+	                      	</div>
+                      	
+
+
+                      	</div>
+
+                      <div class="form-row caixa-subforms">
+                      	
+                      	<div class="col-md-5">
+
+                      		<label for="bairro">BAIRRO</label>
+                      		<input type="text" id="bairro" class="form-control" required>
+
+
+                      	</div>
+
+                      	<div class="col-md-2">
+                      		
+                      		<label class="numero">NÚMERO</label>
+                      		<input type="number" id="numero" class="form-control" required>
+
+
+                      	</div>
+
+                      	<div class="col-md-5">
+                      		
+                      		<label for="complemento">COMPLEMENTO</label>
+                      		<input type="text" id="complemento" class="form-control" required>
+
+                      	</div>
+
+
+                      </div>
+
+
+
+
+
+                      </div>
+
+                      
+
 
 						<div class="form-group text-area">
 							<label for="FormControlTextarea1">FAÇA UM BREVE RESUMO DAS ATIVIDADES:</label>
@@ -332,6 +493,24 @@
 			</div>
 
 		</footer>
+
+		<script>
+
+			function divPessoaJuridica(){
+				var radioSim = document.getElementById("radio-sim");
+				var radioNão = document.getElementById("radio-nao");
+				var cadastroJuridico = document.getElementById("cadastro-juridico")
+
+				if(radioSim.checked == true){
+					cadastroJuridico.style.display = "block"
+				}
+				else{
+					cadastroJuridico.style.display = "none"
+				}
+			}
+			
+
+		</script>
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
