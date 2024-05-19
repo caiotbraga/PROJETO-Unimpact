@@ -47,6 +47,18 @@
     margin-bottom: 40px;
 }
 
+.list-group-item {
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #8453B3;
+	color: white;
+}
+.list-group{
+	background-color: #A373D1;
+}
+
 h4, p{
 	color: #8453B3;
 }
