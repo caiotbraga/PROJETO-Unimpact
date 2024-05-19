@@ -453,7 +453,20 @@
 
 							</ul>
 						  </div>
-						
+
+						  <div id="messagem_alertando_o_numero_maximo_permitido_de_escolas_selecionadas"></div>
+
+						  <div id="checkbox-container">
+							<label><input type="checkbox" class="option-checkbox" value="1"> COMUNICAÇÃO</label>
+							<label><input type="checkbox" class="option-checkbox" value="2"> UNICAP ICAM TECH</label>
+							<label><input type="checkbox" class="option-checkbox" value="3"> SAÚDE E CIÊNCIAS DA VIDA</label>
+							<label><input type="checkbox" class="option-checkbox" value="4"> EDUCAÇÃO E HUMANIDADES</label>
+							<label><input type="checkbox" class="option-checkbox" value="5"> GESTÃO, ECONOMIA E POLÍTICA</label>
+							<label><input type="checkbox" class="option-checkbox" value="6"> CIÊNCIAS JURÍDICAS </label>
+						  </div>
+						   
+						  
+
 						<div class="form-group text-area">
 							<label for="FormControlTextarea5"> OBSERVAÇÕES QUE VOCÊ JULGA PERTINENTES PARA QUE POSSAMOS ENTENDER A SUA DEMANDA E MELHOR IDENTIFICAR SOLUÇÕES E ENCAMINHAMENTOS: </label>
 							<textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
@@ -494,28 +507,11 @@
 
 		</footer>
 
-		<script>
-
-			function divPessoaJuridica(){
-				var radioSim = document.getElementById("radio-sim");
-				var radioNão = document.getElementById("radio-nao");
-				var cadastroJuridico = document.getElementById("cadastro-juridico")
-
-				if(radioSim.checked == true){
-					cadastroJuridico.style.display = "block"
-				}
-				else{
-					cadastroJuridico.style.display = "none"
-				}
-			}
-			
-
-		</script>
-
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+		<script src="/src/main/resources/static/js/Fazer_Nova_Solicitação_Contribuinte_Externo.js"></script>
 	</body>
 
 </html>
