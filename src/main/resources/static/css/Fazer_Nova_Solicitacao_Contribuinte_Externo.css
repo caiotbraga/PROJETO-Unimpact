@@ -47,15 +47,18 @@
     margin-bottom: 40px;
 }
 
-.list-group-item {
+.cor-principal{
+
 	cursor: pointer;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: #8453B3;
 	color: white;
+
 }
-.list-group{
+
+.cor-itens{
 	background-color: #A373D1;
 }
 
