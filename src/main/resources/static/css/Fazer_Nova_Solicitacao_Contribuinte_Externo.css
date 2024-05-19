@@ -62,6 +62,21 @@
 	background-color: #A373D1;
 }
 
+
+#messagem_alertando_o_numero_maximo_permitido_de_escolas_selecionadas {
+	color: red;
+	font-weight: bold;
+	margin-top: 20px;
+}
+#checkbox-container {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+#checkbox-container label {
+	margin-bottom: 5px;
+}
+
 h4, p{
 	color: #8453B3;
 }
