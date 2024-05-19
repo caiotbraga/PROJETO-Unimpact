@@ -30,8 +30,13 @@
 	padding: 60px 0px;
 }
 
+.enquadramento{
+	margin-top: 40px;
+}
+
 .caixa-forms{
     margin-top: 40px;
+	color: #4e1f7a;
 }
 
 .text-area{
