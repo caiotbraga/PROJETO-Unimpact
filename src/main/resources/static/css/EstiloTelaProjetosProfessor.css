@@ -1,0 +1,56 @@
+.corTexto{
+	color: black;
+}
+
+.corTexto:hover{
+	color: #8453B3;
+}
+
+.pagina-ativa{
+	color: black;
+	background-color: #8453B3;
+	padding: 5px 8px;
+	cursor: default;
+
+}
+
+.caixa{
+	padding: 60px 0px;
+}
+
+.caixa-projeto{
+	margin: 20px 0px;
+}
+
+.btn-roxo-e{
+
+	background-color: #8453B3;
+	color: white;
+}
+
+.btn-roxo-e:hover{
+    background-color: #A373D1;
+}
+
+.btn-roxo-c{
+	background-color: #A373D1;
+	color: white;
+}
+
+.btn-roxo-c:hover{
+    background-color: #8453B3;
+}
+
+h4, p{
+	color: #8453B3;
+}
+
+.espaco-projeto{
+	margin-bottom: 10px;
+}
+
+
+#footer_unicap{
+    background-color: #690013;
+}
+
