@@ -8,12 +8,12 @@
 
 .btn-roxo-e{
 
-	background-color: #8453B3;
+	background-color: #A373D1;
 	color: white;
 }
 
 .btn-roxo-e:hover{
-    background-color: #A373D1;
+    background-color: #8453B3;
 }
 
 .btn-roxo-c{
@@ -54,6 +54,10 @@ h4, p{
 .infos-da-solicitacao{
     display: flex;
 	flex-direction: column;
+}
+
+.espaco{
+	margin-bottom: 10px;
 }
 
 .negrito{
