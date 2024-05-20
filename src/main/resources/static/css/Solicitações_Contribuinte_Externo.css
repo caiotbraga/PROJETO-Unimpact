@@ -30,6 +30,10 @@
 	padding: 60px 0px;
 }
 
+.caixa-projeto{
+	margin: 20px 0px;
+}
+
 .espacamento{
     margin-top: 25px;
 }
@@ -48,6 +52,18 @@
 
 h4, p{
 	color: #8453B3;
+}
+
+.pagina-ativa{
+	color: black;
+	background-color: #CB99FB;
+	padding: 5px 8px;
+	cursor: default;
+	border-radius: 3px;
+}
+
+.espaco-solicitacao{
+	margin-bottom: 10px;
 }
 
 .negrito{

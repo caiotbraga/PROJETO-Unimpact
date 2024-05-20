@@ -30,10 +30,6 @@
 	padding: 60px 0px;
 }
 
-.enquadramento{
-	margin-top: 40px;
-}
-
 .caixa-forms{
     margin-top: 40px;
 	color: #4e1f7a;
@@ -67,6 +63,9 @@
 	background-color: #A373D1;
 }
 
+.caixa{
+	padding: 60px 0px;
+}
 
 #messagem_alertando_o_numero_maximo_permitido_de_escolas_selecionadas {
 	color: red;

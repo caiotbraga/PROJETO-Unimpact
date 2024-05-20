@@ -8,10 +8,10 @@
 
 .pagina-ativa{
 	color: black;
-	background-color: #8453B3;
+	background-color: #CB99FB;
 	padding: 5px 8px;
 	cursor: default;
-
+	border-radius: 3px;
 }
 
 .caixa{
