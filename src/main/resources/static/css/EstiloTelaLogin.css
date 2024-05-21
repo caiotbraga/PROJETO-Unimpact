@@ -1,0 +1,26 @@
+.btn-roxo-e{
+	
+	background-color: #8453B3;
+	color: white;
+}
+
+.btn-roxo-e:hover{
+	background-color: #A373D1;
+}
+
+.btn-roxo-c{
+	background-color: #A373D1;
+	color: white;
+}
+
+.btn-roxo-c:hover{
+	background-color: #8453B3;
+}
+
+#footer_unicap{
+	background-color: #690013;
+}
+
+h3{
+	color: #8453B3;
+}
