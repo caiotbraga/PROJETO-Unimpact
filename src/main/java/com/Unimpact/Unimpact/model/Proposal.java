@@ -1,6 +1,8 @@
 package com.unimpact.unimpact.model;
 
-import javax.persistence.*;
+// import javax.persistence.*;
+// import javax.annotation.*;
+import jakarta.persistence.*;
 
 @Entity
 public class Proposal {

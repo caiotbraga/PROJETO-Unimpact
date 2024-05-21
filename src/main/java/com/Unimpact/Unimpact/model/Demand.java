@@ -1,6 +1,6 @@
 package com.unimpact.unimpact.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;;
 
 @Entity
 public class Demand {
@@ -14,5 +14,4 @@ public class Demand {
 
     // Getters and setters
 }
-// caio trabalhar nesta branch
-
+// caio trabahlar nesta branch
