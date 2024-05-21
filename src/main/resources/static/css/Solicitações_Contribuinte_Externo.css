@@ -66,6 +66,16 @@ h4, p{
 	margin-bottom: 10px;
 }
 
+
+a.link-lista{
+	color: black;
+	text-decoration: none;
+}
+
+a.link-lista:hover{
+	border: 1px solid #A373D1;
+}
+
 .negrito{
 	font-weight: bolder;
 }
