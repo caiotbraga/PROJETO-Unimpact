@@ -17,10 +17,33 @@
 	background-color: #8453B3;
 }
 
+.icone-email{
+	background-image: url(../imagens/icon-email.png);
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: bottom 7px left 5px;
+	padding-left: 30px;
+}
+
+.icone-senha{
+	background-image: url(../imagens/icon_senha.png);
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: bottom 7px left 5px;
+	padding-left: 30px;
+}
+
+
 #footer_unicap{
 	background-color: #690013;
 }
 
 h3{
 	color: #8453B3;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }

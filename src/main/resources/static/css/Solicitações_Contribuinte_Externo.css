@@ -83,3 +83,9 @@ a.link-lista:hover{
 #footer_unicap{
     background-color: #690013;
 }
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
