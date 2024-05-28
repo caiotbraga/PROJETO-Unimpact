@@ -100,3 +100,11 @@ h6{
 .caixa-subforms{
 	margin-top: 10px;
 }
+
+footer{
+	position: relative;
+}
+
+html, body, #principal{
+	height: 100%;
+}
