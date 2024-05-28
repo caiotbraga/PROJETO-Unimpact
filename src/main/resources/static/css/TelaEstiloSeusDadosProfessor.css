@@ -1,0 +1,100 @@
+.corAltSenha{
+    color: black;
+
+}
+.corExcluirConta{
+    color: red;
+}
+.pagina-ativa{
+	color: black;
+	background-color: #CB99FB;
+	padding: 5px 8px;
+	cursor: default;
+	border-radius: 3px;
+}
+.corTexto{
+	color: black;
+}
+
+.corTexto:hover{
+	color: #8453B3;
+}
+/* Formatação dos botões cadastrar e entrar */
+.btn-roxo-e{
+	
+	background-color: #8453B3;
+	color: white;
+}
+
+.btn-roxo-e:hover{
+	background-color: #A373D1;
+}
+
+.btn-roxo-c{
+	background-color: #A373D1;
+	color: white;
+}
+
+.btn-roxo-c:hover{
+	background-color: #8453B3;
+}
+
+/*Espaçamento entre as seções */
+.caixa{
+	padding: 60px 0px;
+}
+
+
+/* Espaçamento entre formulários */
+.caixa-forms{
+	margin-top: 40px;
+}
+
+/*Formatação h4*/
+h4{
+	color: #8453B3;
+}
+
+/* Formatação cabeçalho dos formulários */
+h6{
+	margin-top: 25px;
+}
+
+/*Formatação footer */
+#footer_unicap{
+	background-color: #690013;
+}
+
+/* Formatação texto negrito */
+.negrito{
+	font-weight: bold;
+}
+
+/* Formatação texto sublinhado */
+.sublinhado{
+	text-decoration: underline;
+}
+
+/* Formatação botão voltar */
+.btn-voltar{
+	padding-left: 60px;
+}
+
+/*Formatação parte checkbox*/
+.caixa-checkbox{
+	margin: 10px 0;
+}
+
+/*Formatação entre linhas dos formulários*/
+.caixa-subforms{
+	margin-top: 10px;
+}
+
+/*Formatação do símbolo obrigatório*/
+.vermelho{
+	color: #A71616;
+}
+
+.roxo-c{
+	background-color: #8453B3;
+}

@@ -11,7 +11,7 @@
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-		<link rel="stylesheet" type="text/css" href="css/SolicitacoesProfessor.css">
+		<link rel="stylesheet" type="text/css" href="css/EstiloTelaSolicitaçõesContribuinteExterno.css">
 
 		<link rel="icon" href="imagens/logo.png">
 
@@ -41,7 +41,7 @@
 						
 						<li class="nav-item">
 
-							<a href="/src/main/resources/static/SeusDadosProfessor.html" class="nav-link">
+							<a href="/src/main/resources/static/Seus_Dados_Contribuinte_Externo.html" class="nav-link">
                                 <span class="corTexto">SEUS DADOS</span>
 							</a>
 
@@ -49,16 +49,16 @@
 
 						<li class="nav-item">
 							
-							<a href="" class="nav-link">
-								<span class="pagina-ativa">SOLICITAÇÕES</span>
+							<a href="/src/main/resources/static/Solicitações_Contribuinte_Externo.html" class="nav-link">
+								<span class="corTexto">SOLICITAÇÕES</span>
 							</a>
 
 						</li>
 
                         <li class="nav-item">
 
-							<a href="/src/main/resources/static/TelaProjetosProfessor.html" class="nav-link">
-                                <span class="corTexto">PROJETOS</span>
+							<a href="" class="nav-link">
+                                <span class="pagina-ativa">PROJETOS</span>
 							</a>
 
 						</li>
@@ -82,7 +82,7 @@
 
 							<a href="" class="nav-link"> 
                                 <button class="btn btn-roxo-c">
-									<img src="imagens/icon_usuario.png" width="18" style="margin-right: 5px;margin-bottom: 3px;">PROFESSOR
+									<img src="imagens/icon_usuario.png" width="18" style="margin-right: 5px;margin-bottom: 3px;">SOLICITANTE
 								</button>
 							</a>
 
@@ -104,9 +104,8 @@
                 <div>
                     
                     <div class="align-self-center espacamento">
-
-                        <h4>SOLICITAÇÕES PARA ANÁLISE</h4>
-				
+                        <h4>PROJETOS ATIVOS</h4>	
+                        <p>CLIQUE EM UMA DAS OCORRÊNCIAS PARA VISUALIZAR OS DETALHES</p>
                     </div>  
                 </div>        
             </div>
@@ -114,24 +113,26 @@
 			<div>
 
 				<ul class="list-group mt-4">
-			     <a href="/src/main/resources/static/VisualizaçãoDaSolicitaçãoProfessor.html" class="link-lista" >
-					<li class="list-group-item espaco-solicitacao">
-						<div class="d-flex justify-content-between align-items-center">
-							Título da solicitação 3
-							<span>Status: em análise</span>
-
-						</div>
-					</li>
-				</a>	
 					
 					<li class="list-group-item espaco-solicitacao">
 						<div class="d-flex justify-content-between align-items-center">
 							
-							Título da solicitação 2
-							<span>Status: aguardando análise</span>
-
+							PROJETO 3
+							<span>02/02/24</span>
 						</div>
+                        Status: em execução
 					</li>
+					
+                <a href="/src/main/resources/static/Projeto_Contribuinte_Externo.html" class="link-lista" >
+					<li class="list-group-item espaco-solicitacao">
+						<div class="d-flex justify-content-between align-items-center">
+							
+							PROJETO 2
+							<span>02/01/24</span>
+						</div>
+                        Status: aguardando análise
+					</li>
+                </a>    
 
 				</ul>
 				
@@ -142,7 +143,7 @@
                     
                     <div class="align-self-center espacamento">
 
-                        <h4>SOLICITAÇÕES ANALISADAS</h4>
+                        <h4>PROJETOS CONCLUÍDOS</h4>
 
                     </div>  
                 </div>        
@@ -154,10 +155,10 @@
 					<li class="list-group-item espaco-solicitacao">
 						<div class="d-flex justify-content-between align-items-center">
 							
-							Título da solicitação 1
-							<span>Status: concluído</span>
-
+							PROJETO 1
+							<span>10/09/23</span>
 						</div>	
+                        Status: concluído
 					</li>
 				</ul>
 				

@@ -11,7 +11,7 @@
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-		<link rel="stylesheet" type="text/css" href="css/Solicitações_Contribuinte_Externo.css">
+		<link rel="stylesheet" type="text/css" href="css/EstiloTelaSolicitacoesContribuinteExterno.css">
 
 		<link rel="icon" href="imagens/logo.png">
 
@@ -49,16 +49,16 @@
 
 						<li class="nav-item">
 							
-							<a href="/src/main/resources/static/Solicitações_Contribuinte_Externo.html" class="nav-link">
-								<span class="corTexto">SOLICITAÇÕES</span>
+							<a href="" class="nav-link">
+								<span class="pagina-ativa">SOLICITAÇÕES</span>
 							</a>
 
 						</li>
 
                         <li class="nav-item">
 
-							<a href="" class="nav-link">
-                                <span class="pagina-ativa">PROJETOS</span>
+							<a href="/src/main/resources/static/ProjetosContribuinteExterno.html" class="nav-link">
+                                <span class="corTexto">PROJETOS</span>
 							</a>
 
 						</li>
@@ -104,8 +104,11 @@
                 <div>
                     
                     <div class="align-self-center espacamento">
-                        <h4>PROJETOS ATIVOS</h4>	
-                        <p>CLIQUE EM UMA DAS OCORRÊNCIAS PARA VISUALIZAR OS DETALHES</p>
+
+                        <h4>SOLICITAÇÕES ATIVAS</h4>
+                        <a href="/src/main/resources/static/Fazer_Nova_Solicitacao_Contribuinte_Externo.html">  <button class="btn btn-roxo-e rounded mx-auto alinhamento-btn">FAZER NOVA SOLICITAÇÃO</button>  </a>
+
+						
                     </div>  
                 </div>        
             </div>
@@ -117,22 +120,21 @@
 					<li class="list-group-item espaco-solicitacao">
 						<div class="d-flex justify-content-between align-items-center">
 							
-							PROJETO 3
-							<span>02/02/24</span>
+							Título da solicitação 3
+							<span>Status: em análise</span>
+
 						</div>
-                        Status: em execução
 					</li>
 					
-                <a href="/src/main/resources/static/Projeto_Contribuinte_Externo.html" class="link-lista" >
+					
 					<li class="list-group-item espaco-solicitacao">
 						<div class="d-flex justify-content-between align-items-center">
 							
-							PROJETO 2
-							<span>02/01/24</span>
+							Título da solicitação 2
+							<span>Status: aguardando análise</span>
+
 						</div>
-                        Status: aguardando análise
 					</li>
-                </a>    
 
 				</ul>
 				
@@ -143,7 +145,7 @@
                     
                     <div class="align-self-center espacamento">
 
-                        <h4>PROJETOS CONCLUÍDOS</h4>
+                        <h4>SOLICITAÇÕES CONCLUÍDAS</h4>
 
                     </div>  
                 </div>        
@@ -151,15 +153,17 @@
 
 			<div class="caixa-projeto">
 
-				<ul class="list-group mt-4">	
+				<ul class="list-group mt-4">
+				<a href="/src/main/resources/static/SolicitacaoContribuinteExterno.html" class="link-lista" >	
 					<li class="list-group-item espaco-solicitacao">
 						<div class="d-flex justify-content-between align-items-center">
 							
-							PROJETO 1
-							<span>10/09/23</span>
+							Título da solicitação 1
+							<span>Status: concluído</span>
+
 						</div>	
-                        Status: concluído
 					</li>
+				</a>
 				</ul>
 				
 			</div>
