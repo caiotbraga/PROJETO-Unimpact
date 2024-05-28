@@ -1,8 +1,8 @@
 
 function divPessoaJuridica(){
 	var radioSim = document.getElementById("radio-sim");
-	var radioNão = document.getElementById("radio-nao");
-	var cadastroJuridico = document.getElementById("cadastro-juridico")
+	var radioNao = document.getElementById("radio-nao");
+	var cadastroJuridico = document.getElementById("cadastro-juridico");
 
 	if(radioSim.checked == true){
 		cadastroJuridico.style.display = "block"
