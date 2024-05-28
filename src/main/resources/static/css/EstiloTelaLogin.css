@@ -33,6 +33,14 @@
 	padding-left: 30px;
 }
 
+.tam-btn-enviar{
+	width: 250px;
+}
+
+.tam-btn-voltar{
+	width: 160px;
+}
+
 #footer_unicap{
 	background-color: #690013;
 }
