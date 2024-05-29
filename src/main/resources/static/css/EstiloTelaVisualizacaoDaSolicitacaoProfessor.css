@@ -25,6 +25,13 @@
     background-color: #8453B3;
 }
 
+.btn-roxo-c2{
+	background-color: #E5CAFF;
+}
+
+.btn-roxo-c2:hover{
+	background-color: #d2a1ff;
+}
 
 .caixa{
 	padding: 60px 0px;
@@ -36,7 +43,7 @@
 }
 
 .text-area{
-	margin-top: 40px;
+	margin-top: 5px;
 }
 
 .espacamento-observacao{
@@ -67,6 +74,10 @@
 	padding: 60px 0px;
 }
 
+.elaboracao-da-proposta{
+    margin-top: 40px;
+}
+
 #messagem_alertando_o_numero_maximo_permitido_de_escolas_selecionadas {
 	color: red;
 	font-weight: bold;
@@ -81,7 +92,7 @@
 	margin-bottom: 5px;
 }
 
-h4, p{
+h4{
 	color: #8453B3;
 }
 
@@ -99,4 +110,23 @@ h6{
 
 .caixa-subforms{
 	margin-top: 10px;
+}
+
+html, body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+footer{
+	flex-shrink: 0;
+}
+
+.conteudo{
+	flex: 1 0 auto;
 }

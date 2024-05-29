@@ -49,8 +49,21 @@ h3{
 	color: #8453B3;
 }
 
+html, body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
 footer{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+	flex-shrink: 0;
+}
+
+.conteudo{
+	flex: 1 0 auto;
 }

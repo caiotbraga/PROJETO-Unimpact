@@ -8,12 +8,12 @@
 
 .btn-roxo-e{
 
-	background-color: #A373D1;
+	background-color: #8453B3;
 	color: white;
 }
 
 .btn-roxo-e:hover{
-    background-color: #8453B3;
+    background-color: #A373D1;
 }
 
 .btn-roxo-c{
@@ -28,6 +28,10 @@
 
 .caixa{
 	padding: 60px 0px;
+}
+
+.caixa-projeto{
+	margin: 20px 0px;
 }
 
 .espacamento{
@@ -46,18 +50,30 @@
     margin-top: 20px;
 }
 
-h4{
+h4, p{
 	color: #8453B3;
 }
 
-
-.infos-da-solicitacao{
-    display: flex;
-	flex-direction: column;
+.pagina-ativa{
+	color: black;
+	background-color: #CB99FB;
+	padding: 5px 8px;
+	cursor: default;
+	border-radius: 3px;
 }
 
-.espaco{
+.espaco-solicitacao{
 	margin-bottom: 10px;
+}
+
+
+a.link-lista{
+	color: black;
+	text-decoration: none;
+}
+
+a.link-lista:hover{
+	border: 1px solid #A373D1;
 }
 
 .negrito{
@@ -68,9 +84,6 @@ h4{
     background-color: #690013;
 }
 
-.caixa-solicitacao{
-	margin: 20px 0px;
-}
 
 html, body{
 	height: 100%;

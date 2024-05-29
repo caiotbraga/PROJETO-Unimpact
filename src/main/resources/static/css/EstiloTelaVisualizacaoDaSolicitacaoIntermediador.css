@@ -111,3 +111,22 @@ h6{
 .caixa-subforms{
 	margin-top: 10px;
 }
+
+html, body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+footer{
+	flex-shrink: 0;
+}
+
+.conteudo{
+	flex: 1 0 auto;
+}
