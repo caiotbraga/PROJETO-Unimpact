@@ -1,6 +1,6 @@
-package com.unimpact.unimpact.repository;
+package com.Unimpact.Unimpact.repository;
 
-import com.unimpact.unimpact.model.Interest;
+import com.Unimpact.Unimpact.model.Interest;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface InterestRepository extends JpaRepository<Interest, Long> {

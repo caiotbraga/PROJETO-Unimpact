@@ -1,6 +1,6 @@
-package com.unimpact.unimpact.repository;
+package com.Unimpact.Unimpact.repository;
 
-import com.unimpact.unimpact.model.Proposal;
+import com.Unimpact.Unimpact.model.Proposal;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProposalRepository extends JpaRepository<Proposal, Long> {

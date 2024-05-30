@@ -1,4 +1,4 @@
-package com.unimpact.unimpact.model;
+package com.Unimpact.Unimpact.model;
 
 import javax.persistence.*;
 

@@ -1,4 +1,4 @@
-package com.unimpact.unimpact;
+package com.Unimpact.Unimpact;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
