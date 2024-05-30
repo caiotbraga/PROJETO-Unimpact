@@ -91,6 +91,11 @@ body{
 	flex-direction: column;
 }
 
+.download-btn {
+	width: 30px;
+	height: 30px;
+}
+
 footer{
 	flex-shrink: 0;
 }
