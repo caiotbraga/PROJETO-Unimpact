@@ -130,3 +130,11 @@ footer{
 .conteudo{
 	flex: 1 0 auto;
 }
+
+.sel-modal{
+	background-color: #BF7CFF !important; 
+}
+
+.opt-modal{
+	background-color: #E5CAFF;
+}

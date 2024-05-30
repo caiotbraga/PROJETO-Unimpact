@@ -624,7 +624,42 @@
 							  </div>
 							</div>
 
-                            <button class="btn btn-roxo-e rounded mx-auto d-block alinhamento-btn"> ENCAMINHAR SOLICITAÇÃO</button>
+                            <button type="button" class="btn btn-roxo-e rounded mx-auto d-block alinhamento-btn" data-toggle="modal" data-target="#exampleModal"> ENCAMINHAR SOLICITAÇÃO</button>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h4 class="modal-title" id="exampleModalLabel">ENCAMINHAR SOLICITAÇÃO</h4>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button>
+							      </div>
+							      <div class="modal-body">
+
+							      	<h7 class="corTexto">Selecione uma escola que ficará encarregada pela análise da solicitação</h7>
+
+							      	<select class="form-control mt-2 sel-modal">
+
+							      		<option class="opt-modal">UNICAP ICAM TECH</option>
+							      		<option class="opt-modal">COMUNICAÇÃO</option>
+							      		<option class="opt-modal">SAÚDE E CIÊNCIAS DA VIDA</option>
+							      		<option class="opt-modal">GESTÃO, ECONOMIA E POLÍTICA</option>
+							      		<option class="opt-modal">EDUCAÇÃO E HUMANIDADES</option>
+							      		<option class="opt-modal">CIÊNCIAS JURÍDICAS</option>
+							      		
+
+							      	</select>
+
+							        
+							      </div>
+							      <div class="modal-footer rounded mx-auto d-block">
+							        <input type="submit" name="enviar" class="btn btn-roxo-c pl-5 pr-5">
+							      </div>
+							    </div>
+							  </div>
+							</div>
+
                 </form>
 
             </div>
@@ -649,7 +684,7 @@
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-		<script src="/src/main/resources/static/js/Fazer_Nova_Solicitação_Contribuinte_Externo.js"></script>
+		<script src="js/TelaVisualizacaoDaSolicitacaoIntermediador.js"></script>
 	</body>
 
 </html>
