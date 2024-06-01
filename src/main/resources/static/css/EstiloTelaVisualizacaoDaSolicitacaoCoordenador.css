@@ -55,6 +55,13 @@
     margin-bottom: 40px;
 }
 
+
+.alinhamento-btn-2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
 .cor-principal{
 
 	cursor: pointer;
@@ -132,9 +139,14 @@ h6{
     color: white;
 }
 
-.modal-title{
+.modal-title-aceitar-solicitacao{
     color: #5B9A61;
 }
+
+.modal-title-recusar-solicitacao{
+    color:  #C91212;
+}
+
 
 html, body{
 	height: 100%;
