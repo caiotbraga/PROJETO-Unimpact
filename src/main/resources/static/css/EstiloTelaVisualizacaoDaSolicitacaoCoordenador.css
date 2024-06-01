@@ -112,6 +112,26 @@ h6{
 	margin-top: 10px;
 }
 
+.btn-verde-c{
+    background-color: #5B9A61;
+    color: white;
+}
+
+.btn-verde-c:hover{
+    background-color: #447f4a;
+    color: white;
+}
+
+.btn-vermelho-c2{
+    background-color: #A71616;
+    color: white;
+}
+
+.btn-vermelho-c2:hover{
+    background-color: #800909;
+    color: white;
+}
+
 html, body{
 	height: 100%;
 	margin: 0px;
