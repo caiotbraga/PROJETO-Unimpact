@@ -132,6 +132,10 @@ h6{
     color: white;
 }
 
+.modal-title{
+    color: #5B9A61;
+}
+
 html, body{
 	height: 100%;
 	margin: 0px;

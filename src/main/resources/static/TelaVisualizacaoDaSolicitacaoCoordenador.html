@@ -628,11 +628,11 @@
 
                             <div class="container d-flex justify-content-center my-4">
                                 <div class="d-flex flex-wrap justify-content-center">
-                                    <a href="/src/main/resources/static/SolicitacoesProfessor.html" class="m-2">
-                                        <button class="btn btn-verde-c rounded alinhamento-btn">
+                                    <!-- <a href="" class="m-2"> -->
+                                        <button type="button" class="btn btn-verde-c rounded alinhamento-btn" data-toggle="modal" data-target="#exampleModalAceitarSoliitacao">
                                             ACEITAR SOLICITAÇÃO
                                         </button>
-                                    </a>
+                                    <!--</a> -->
                                     <a href="#" class="m-2">
                                         <button class="btn btn-vermelho-c2 rounded alinhamento-btn">
                                             RECUSAR SOLICITAÇÃO
@@ -641,27 +641,24 @@
                                 </div>
                             </div>
 
-                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal fade" id="exampleModalAceitarSoliitacao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							  <div class="modal-dialog" role="document">
 							    <div class="modal-content">
 							      <div class="modal-header">
-							        <h4 class="modal-title" id="exampleModalLabel">ENCAMINHAR SOLICITAÇÃO</h4>
+							        <h4 class="modal-title" id="exampleModalLabel">ACEITAR SOLICITAÇÃO</h4>
 							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							          <span aria-hidden="true">&times;</span>
 							        </button>
 							      </div>
 							      <div class="modal-body">
 
-							      	<h7 class="corTexto">Selecione uma escola que ficará encarregada pela análise da solicitação</h7>
+							      	<h7 class="corTexto">Selecione um professor que poderá ficar encarregado pela execução do projeto</h7>
 
 							      	<select class="form-control mt-2 sel-modal">
 
-							      		<option class="opt-modal">UNICAP ICAM TECH</option>
-							      		<option class="opt-modal">COMUNICAÇÃO</option>
-							      		<option class="opt-modal">SAÚDE E CIÊNCIAS DA VIDA</option>
-							      		<option class="opt-modal">GESTÃO, ECONOMIA E POLÍTICA</option>
-							      		<option class="opt-modal">EDUCAÇÃO E HUMANIDADES</option>
-							      		<option class="opt-modal">CIÊNCIAS JURÍDICAS</option>
+							      		<option class="opt-modal">Nome: PROFESSOR 1 - ID:3056 </option>
+							      		<option class="opt-modal">NOME: PROFESSOR 2 - ID:5039</option>
+							      		<option class="opt-modal">NOME: PROFESSOR 3 - ID:1092</option>
 							      		
 
 							      	</select>
