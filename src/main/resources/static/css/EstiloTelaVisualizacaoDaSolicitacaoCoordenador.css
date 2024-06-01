@@ -1,0 +1,140 @@
+.corTexto{
+	color: black;
+}
+
+.corTexto:hover{
+	color: #8453B3;
+}
+
+.btn-roxo-e{
+
+	background-color: #8453B3;
+	color: white;
+}
+
+.btn-roxo-e:hover{
+    background-color: #A373D1;
+}
+
+.btn-roxo-c{
+	background-color: #A373D1;
+	color: white;
+}
+
+.btn-roxo-c:hover{
+    background-color: #8453B3;
+}
+
+.btn-roxo-c2{
+	background-color: #E5CAFF;
+}
+
+.btn-roxo-c2:hover{
+	background-color: #d2a1ff;
+}
+
+.caixa{
+	padding: 60px 0px;
+}
+
+.caixa-forms{
+    margin-top: 40px;
+	color: #4e1f7a;
+}
+
+.text-area{
+	margin-top: 5px;
+}
+
+.espacamento-observacao{
+    margin-top: 35px;
+}
+
+.alinhamento-btn{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cor-principal{
+
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #8453B3;
+	color: white;
+
+}
+
+.cor-itens{
+	background-color: #A373D1;
+}
+
+.caixa{
+	padding: 60px 0px;
+}
+
+.elaboracao-da-proposta{
+    margin-top: 40px;
+}
+
+#messagem_alertando_o_numero_maximo_permitido_de_escolas_selecionadas {
+	color: red;
+	font-weight: bold;
+	margin-top: 20px;
+}
+#checkbox-container {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+#checkbox-container label {
+	margin-bottom: 5px;
+}
+
+h4{
+	color: #8453B3;
+}
+
+h6{
+	margin-top: 25px;
+}
+
+.negrito{
+	font-weight: bolder;
+}
+
+#footer_unicap{
+    background-color: #690013;
+}
+
+.caixa-subforms{
+	margin-top: 10px;
+}
+
+html, body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+footer{
+	flex-shrink: 0;
+}
+
+.conteudo{
+	flex: 1 0 auto;
+}
+
+.sel-modal{
+	background-color: #BF7CFF !important; 
+}
+
+.opt-modal{
+	background-color: #E5CAFF;
+}
