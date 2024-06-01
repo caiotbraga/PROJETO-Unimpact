@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>UNIMPACT</title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="css/EstiloTelaVisualizacaoDaSolicitacaoDiretor.css">
+
+		<link rel="icon" href="imagens/logo.png">
+
+	</head>
+
+	<body>
+
+		<header>
+			
+			<nav class="navbar navbar-expand-sm navbar-light">
+				
+				<div class="container">
+
+					<a href="#" class="navbar-brand">
+						<img src="imagens/Logo_do_projeto_Unimpact.png" width="142">
+					</a>
+
+					<button class="navbar-toggler" data-toggle = "collapse" data-target = "#nav-topo">
+
+						<span class="navbar-toggler-icon"></span>
+						
+					</button>
+
+					<div class="collapse navbar-collapse" id="nav-topo">
+
+						<ul class="navbar-nav mr-auto">
+						
+							<li class="nav-item">
+
+								<a href="/src/main/resources/static" class="nav-link">
+	                                <span class="corTexto">SEUS DADOS</span>
+								</a>
+
+							</li>
+
+							<li class="nav-item">
+								
+								<a href="/src/main/resources/static/TelaSolicitacoesCoordenador.html" class="nav-link">
+	                                <span class="corTexto">SOLICITAÇÕES</span>
+								</a>
+
+							</li>
+
+	                        <li class="nav-item">
+
+								<a href="" class="nav-link">
+	                                <span class="corTexto">PROJETOS</span>
+								</a>
+
+							</li>
+
+						</ul>
+
+	                    <ul class="navbar-nav ml-auto">
+
+	                        <li class="nav-item"> 
+
+								<a href="" class="nav-link">
+	                                
+	                                <button class="btn btn-roxo-c">
+										<img src="imagens/icone_sino_branco.png" width="14" style="margin-right: 3px; margin-left: 3px; margin-bottom: 3px;">
+									</button>
+								</a>
+
+							</li>
+
+	                        <li class="nav-item"> 
+
+								<a href="" class="nav-link"> 
+	                                <button class="btn btn-roxo-c">
+										<img src="imagens/icon_usuario.png" width="18" style="margin-right: 5px;margin-bottom: 3px;">DIRETOR
+									</button>
+								</a>
+
+							</li>
+
+	                    </ul>
+
+					</div>
+
+					
+				</div>
+
+			</nav>
+
+		</header>
+
+
+	<section class="caixa conteudo">
+
+        <div class="container">
+
+			<div class="row">
+				<div class="col-md-10 d-flex">
+					
+					<div class="align-self-center"> 
+
+						<h4>TÍTULO DA SOLICITAÇÃO</h4>
+						<p class="infos-da-solicitacao mb-1">Código: 0588</p>
+						<p class="infos-da-solicitacao mb-1">Escola avaliadora: UNICAP ICAM - TECH</p>
+						<p class="infos-da-solicitacao mb-1">Status: aguardando análise</p>
+
+					</div>  
+				</div>   
+				
+				<div class="col-md-2">
+					<a href="/src/main/resources/static/TelaSolicitacoesDiretor.html">
+						<button class="btn btn-roxo-c">
+							FECHAR PROPOSTA
+						</button>
+					</a>
+				</div>
+
+			</div>
+
+            <div class="row mt-5">
+                <div class="col-md-11 d-flex">
+                    
+                    <div class="align-self-center">
+
+                        <h4>DADOS DA SOLICITAÇÃO</h4>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="caixa-forms">
+
+                <h5>DADOS PESSOAIS</h5>
+
+                <div class="form-row">
+
+                    <div class="col-md-6">
+
+                        <label for="nome">NOME COMPLETO<span class="vermelho">*</span></label>
+                        <input type="text" id="nome" class="form-control" required>
+
+                    </div>
+
+                    <div class="col-md">
+                        
+                        <label for="cpf">CPF<span class="vermelho">*</span></label>
+                        <input type="text" id="cpf" class="form-control" required>
+
+                    </div>
+
+                    <div class="col-md">
+                        
+                        <label for="rg">RG<span class="vermelho">*</span></label>
+                        <input type="text" id="rg" class="form-control" required>
+
+
+                    </div>
+                </div>
+
+                <div class="form-row caixa-subforms mb-4">
+
+                    <div class="col-md">
+                        
+                        <label for="telefone1">TELEFONE 1<span class="vermelho">*</span></label>
+                        <input type="text" id="telefone1" class="form-control" required>
+
+
+                    </div>
+
+                    <div class="col-md">
+                        
+                        <label for="telefone2">TELEFONE 2</label>
+                        <input type="text" id="telefone2" class="form-control">
+
+                    </div>
+                </div>
+
+
+                <h6>ENDEREÇO DA INSTITUIÇÃO</h6>
+
+                <div class="form-row">
+
+
+                    <div class="col-md">
+
+                        <label for="cep">CEP<span class="vermelho">*</span></label>
+                        <input type="text" id="cep" class="form-control" required>
+                        
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <label for="rua">RUA<span class="vermelho">*</span></label>
+                        <input type="text" id="rua" class="form-control" required>
+                        
+
+                    </div>
+
+                    <div class="col-md">
+                        
+                        <label for="estado">ESTADO<span class="vermelho">*</span></label>
+                        <select id="estado" class="form-control" required>
+                            
+                            <option selected></option>
+                            <option>AC</option>
+                            <option>AL</option>
+                            <option>AP</option>
+                            <option>AM</option>
+                            <option>BA</option>
+                            <option>CE</option>
+                            <option>ES</option>
+                            <option>GO</option>
+                            <option>MA</option>
+                            <option>MT</option>
+                            <option>MS</option>
+                            <option>MG</option>
+                            <option>PA</option>
+                            <option>PB</option>
+                            <option>PR</option>
+                            <option>PE</option>
+                            <option>PI</option>
+                            <option>RJ</option>
+                            <option>RN</option>
+                            <option>RS</option>
+                            <option>RO</option>
+                            <option>RR</option>
+                            <option>SC</option>
+                            <option>SP</option>
+                            <option>SE</option>
+                            <option>TO</option>
+                            <option>DF</option>
+
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="form-row caixa-subforms mb-5">
+
+                    <div class="col-md">
+
+                        <label for="bairro">BAIRRO<span class="vermelho">*</span></label>
+                        <input type="text" id="bairro" class="form-control" required>
+
+                    </div>
+
+                    <div class="col-md-2">
+                        
+                        <label for="numero">NÚMERO<span class="vermelho">*</span></label>
+                        <input type="number" id="numero" class="form-control" required>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        
+                        <label for="complemento">COMPLEMENTO</label>
+                        <input type="text" id="complemento" class="form-control">
+
+
+                    </div>
+                </div>
+
+                <form>
+                   <!-- VOCÊ REPRESENTA ALGUMA INSTITUIÇÃO?
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="radio-sim" value="option1" onclick="divPessoaJuridica()">
+                        <label class="form-check-label" for="radio-sim">
+                          SIM
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="radio-nao" value="option2" onclick="divPessoaJuridica()">
+                        <label class="form-check-label" for="radio-nao">
+                          NÃO
+                        </label>
+                      </div>
+                     --> 
+
+                      <div style="display: none;" id="cadastro-juridico">
+                      	
+
+                      	<h6>SOBRE A INSTITUIÇÃO</h6>
+
+	                      <div class="form-row">
+	                      	
+	                      	<div class="col-md">
+
+	                      		<label for="razao-social">RAZÃO SOCIAL</label>
+	                      		<input type="text" id="razao-social" class="form-control" required>
+	                      		
+	                      	</div>
+
+	                      	<div class="col-md">
+	                      		
+	                      		<label for="nome-fantasia">NOME FANTASIA</label>
+	                      		<input type="text" id="nome-fantasia" class="form-control">
+
+
+	                      	</div>
+
+	                      	<div class="col-md">
+	                      		
+	                      		<label for="cnpj">CNPJ</label>
+	                      		<input type="text" id="cnpj" class="form-control" required>
+
+
+	                      	</div>
+
+	                      </div>
+
+	                      <div class="form-row caixa-subforms">
+	                      	
+	                      	<div class="col-md">
+
+	                      		<label for="telefone1">TELEFONE 1</label>
+	                      		<input type="text" id="telefone1" class="form-control" required>
+
+	                      	</div>
+
+	                      	<div class="col-md">
+
+	                      		<label for="telefone2">TELEFONE 2</label>
+	                      		<input type="text" id="telefone2" class="form-control">
+	                      		
+
+	                      	</div>
+
+	                      	<div class="col-md">
+	                      		
+	                      		<label for="tipo-instituicao">TIPO DE INSTITUIÇÃO</label>
+	                      		<input type="text" id="tipo-instituicao" class="form-control" required>
+
+	                      	</div>
+
+
+	                      </div>
+
+	                      <h6>ENDEREÇO DA INSTITUIÇÃO</h6>
+
+	                      <div class="form-row">
+
+
+	                      	<div class="col-md-2">
+	                      		
+	                      		<label for="cep">CEP</label>
+	                      		<input type="text" id="cep" class="form-control" required>
+
+
+	                      	</div>
+
+	                      	<div class="col-md-8">
+	                      		
+	                      		<label for="rua">RUA</label>
+	                      		<input type="text" id="rua" class="form-control" required>
+
+
+	                      	</div>
+
+	                      	<div class="col-md-2">
+	                      		
+	                      		<label for="estado">ESTADO</label>
+									<select id="estado" class="form-control" required>
+										
+										<option selected></option>
+										<option>AC</option>
+										<option>AL</option>
+										<option>AP</option>
+										<option>AM</option>
+										<option>BA</option>
+										<option>CE</option>
+										<option>ES</option>
+										<option>GO</option>
+										<option>MA</option>
+										<option>MT</option>
+										<option>MS</option>
+										<option>MG</option>
+										<option>PA</option>
+										<option>PB</option>
+										<option>PR</option>
+										<option>PE</option>
+										<option>PI</option>
+										<option>RJ</option>
+										<option>RN</option>
+										<option>RS</option>
+										<option>RO</option>
+										<option>RR</option>
+										<option>SC</option>
+										<option>SP</option>
+										<option>SE</option>
+										<option>TO</option>
+										<option>DF</option>
+
+
+									</select>
+
+
+	                      	</div>
+                      	
+
+
+                      	</div>
+
+                      <div class="form-row caixa-subforms">
+                      	
+                      	<div class="col-md-5">
+
+                      		<label for="bairro">BAIRRO</label>
+                      		<input type="text" id="bairro" class="form-control" required>
+
+
+                      	</div>
+
+                      	<div class="col-md-2">
+                      		
+                      		<label class="numero">NÚMERO</label>
+                      		<input type="number" id="numero" class="form-control" required>
+
+
+                      	</div>
+
+                      	<div class="col-md-5">
+                      		
+                      		<label for="complemento">COMPLEMENTO</label>
+                      		<input type="text" id="complemento" class="form-control" required>
+
+                      	</div>
+
+
+                      </div>
+
+
+
+
+
+                      </div>
+
+                      
+
+
+						<div class="form-group text-area">
+							<label for="FormControlTextarea1">FAÇA UM BREVE RESUMO DAS ATIVIDADES:</label>
+							<textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+						</div>
+
+						<div class="form-group text-area">
+							<label for="FormControlTextarea2">INFORME A DEMANDA/NECESSIDADE QUE VOCÊ GOSTARIA DE RESOLVER COM A UNICAP ATRAVÉS DO CONHECIMENTO DESENVOLVIDOS NOS CURSOS DA UNIVERSIDADE: </label>
+							<textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+						</div>
+
+						<div class="form-group text-area">
+							<label for="FormControlTextarea3">QUE NECESSIDADE PRINCIPAL CUJO PROJETO VISARÁ ATENDER? (Exemplo: Curso de tecnologias educacionais para professores de escola pública/Oficina de saúde para idosos/ Desenvolvimento de software de gestão de relacionamento com parceiros): </label>
+							<textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+						</div>
+
+						<div class="row caixa-forms">
+							<div class="col">
+								PÚBLICO-ALVO (beneficiário da Iniciativa):
+							  <input type="text" class="form-control" placeholder="Insira o público alvo">
+							</div>
+							<div class="col">
+							   EXPECTATIVA DE QUANTIDADE DE PESSOAS BENEFICIADAS:
+							  <input type="number" class="form-control" placeholder="Insira um número">
+							</div>
+						  </div>
+					  
+						<div class="form-row caixa-forms">
+							<div class="col-md">
+							QUAL É O PERÍODO DE EXECUÇÃO? VOCÊ GOSTARIA QUE A DEMANDA FOSSE ATENDIDA QUANDO?
+							<br>
+							<label class="negrito">Data de Início</label>
+							  <input type="date" class="form-control" placeholder="State">
+							  <label class="negrito">Data de conclusão</label>
+							  <input type="date" class="form-control" placeholder="State">
+							</div>
+							
+						</div>
+
+						<div class="form-group text-area">
+							<label for="FormControlTextarea4"> HAVERÁ ALGUMA CONTRAPARTIDA DO SOLICITANTE (Recursos Humanos, Recursos Financeiros, Recursos Estruturais)? QUAL? (Importante: quanto melhor for a contrapartida do solicitante, maior será a possibilidade de aprovação da solicitação). </label>
+							<textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+						</div>
+
+						QUAIS DESSAS ESCOLAS DA UNICAP VOCÊ ACREDITA QUE POSSA MELHOR CONTRIBUIR PARA O SEU PROJETO? (Visualize abaixo os cursos de cada escola e selecione no máximo duas). 
+						<div class="mt-3">
+							<ul class="list-group cor-itens">
+
+							  <li class="list-group-item cor-principal" data-toggle="collapse" data-target="#sublist1">
+								<span>COMUNICAÇÃO</span>
+								<i class="fas fa-chevron-down"></i>
+							  </li>
+							  <div class="collapse" id="sublist1">
+								<ul class="list-group mt-2">
+								  <li class="list-group-item cor-itens">Fotografia - Curso Superior de Tecnologia</li>
+								  <li class="list-group-item cor-itens">Jogos Digitais - Curso Superior de Tecnologia</li>
+								  <li class="list-group-item cor-itens">Jornalismo - Bacharelado </li>
+								  <li class="list-group-item cor-itens">Publicidade e Propaganda - Bacharelado </li>
+								</ul>
+							  </div>
+
+							  <li class="list-group-item cor-principal" data-toggle="collapse" data-target="#sublist2">
+								<span>UNICAP ICAM TECH</span>
+								<i class="fas fa-chevron-down"></i>
+							  </li>
+							  <div class="collapse" id="sublist2">
+								<ul class="list-group mt-2">
+								  <li class="list-group-item cor-itens">Arquitetura e Urbanismo - Bacharelado </li>
+								  <li class="list-group-item cor-itens">Ciência da Computação - Bacharelado</li>
+								  <li class="list-group-item cor-itens">Engenharia Ambiental - Bacharelado</li>
+								  <li class="list-group-item cor-itens">Engenharia Civil - Bacharelado</li>
+								  <li class="list-group-item cor-itens">Engenharia da Complexidade - Bacharelado</li>
+								  <li class="list-group-item cor-itens">Engenharia de Produção - Bacharelado</li>
+								  <li class="list-group-item cor-itens">Engenharia Química - Bacharelado</li>
+								  <li class="list-group-item cor-itens">Saneamento Ambiental - Tecnólogo</li>
+								  <li class="list-group-item cor-itens">Sistemas para Internet - Curso Superior de Tecnologia</li>
+								</ul>
+							  </div>
+
+							  <li class="list-group-item cor-principal" data-toggle="collapse" data-target="#sublist3">
+								<span>SAÚDE E CIÊNCIAS DA VIDA </span>
+								<i class="fas fa-chevron-down"></i>
+							  </li>
+							  <div class="collapse" id="sublist3">
+								<ul class="list-group mt-2">
+								  <li class="list-group-item cor-itens">Ciências Biológicas - Bacharelado</li>
+								  <li class="list-group-item cor-itens">Enfermagem - Bacharelado</li>
+								  <li class="list-group-item cor-itens">Farmácia - Bacharelado</li>
+								  <li class="list-group-item cor-itens">Fisioterapia - Bacharelado </li>
+								  <li class="list-group-item cor-itens">Fonoaudiologia - Bacharelado</li>
+								  <li class="list-group-item cor-itens">Medicina - Bacharelado</li>
+								  <li class="list-group-item cor-itens">Nutrição - Bacharelado</li>
+								  <li class="list-group-item cor-itens">Psicologia - Bacharelado</li>
+								</ul>
+							  </div>
+
+							  <li class="list-group-item cor-principal" data-toggle="collapse" data-target="#sublist4">
+								<span>EDUCAÇÃO E HUMANIDADES</span>
+								<i class="fas fa-chevron-down"></i>
+							  </li>
+							  <div class="collapse" id="sublist4">
+								<ul class="list-group mt-2">
+								  <li class="list-group-item cor-itens">Ciências Biológicas - Licenciatura  </li>
+								  <li class="list-group-item cor-itens">Filosofia - Bacharelado </li>
+								  <li class="list-group-item cor-itens">Filosofia - Licenciatura </li>
+								  <li class="list-group-item cor-itens">Física - Licenciatura </li>
+								  <li class="list-group-item cor-itens">História - Licenciatura </li>
+								  <li class="list-group-item cor-itens">Letras Português - Licenciatura </li>
+								  <li class="list-group-item cor-itens">Letras Português - Licenciatura </li>
+								  <li class="list-group-item cor-itens">Letras Português e Espanhol - Licenciatura </li>
+								  <li class="list-group-item cor-itens">Letras Português e Inglês - Licenciatura </li>
+								  <li class="list-group-item cor-itens">Matemática - Licenciatura </li>
+								  <li class="list-group-item cor-itens">Pedagogia - Licenciatura </li>
+								  <li class="list-group-item cor-itens">Química - Licenciatura </li>
+								  <li class="list-group-item cor-itens">Serviço Social - Bacharelado </li>
+								  <li class="list-group-item cor-itens">Teologia - Bacharelado </li>
+								</ul>
+							  </div>
+
+							  <li class="list-group-item cor-principal" data-toggle="collapse" data-target="#sublist5">
+								<span>GESTÃO, ECONOMIA E POLÍTICA</span>
+								<i class="fas fa-chevron-down"></i>
+							  </li>
+							  <div class="collapse" id="sublist5">
+								<ul class="list-group mt-2">
+								  <li class="list-group-item cor-itens">Administração - Bacharelado </li>
+								  <li class="list-group-item cor-itens">Ciência Política - Bacharelado  </li>
+								  <li class="list-group-item cor-itens">Ciências Contábeis - Bacharelado  </li>
+								  <li class="list-group-item cor-itens">Ciências Econômicas - Bacharelado  </li>
+								</ul>
+							  </div>
+
+							  <li class="list-group-item cor-principal" data-toggle="collapse" data-target="#sublist6">
+								<span>CIÊNCIAS JURÍDICAS</span>
+								<i class="fas fa-chevron-down"></i>
+							  </li>
+							  <div class="collapse" id="sublist6">
+								<ul class="list-group mt-2">
+								  <li class="list-group-item cor-itens">Direito - Bacharelado </li>
+								  <li class="list-group-item cor-itens">Direito Digital - Tecnólogo</li>
+								</ul>
+							  </div>
+
+							</ul>
+						  </div>
+
+						  <div id="messagem_alertando_o_numero_maximo_permitido_de_escolas_selecionadas"></div>
+
+						  <div id="checkbox-container">
+							<label><input type="checkbox" class="option-checkbox" value="1"> COMUNICAÇÃO</label>
+							<label><input type="checkbox" class="option-checkbox" value="2"> UNICAP ICAM TECH</label>
+							<label><input type="checkbox" class="option-checkbox" value="3"> SAÚDE E CIÊNCIAS DA VIDA</label>
+							<label><input type="checkbox" class="option-checkbox" value="4"> EDUCAÇÃO E HUMANIDADES</label>
+							<label><input type="checkbox" class="option-checkbox" value="5"> GESTÃO, ECONOMIA E POLÍTICA</label>
+							<label><input type="checkbox" class="option-checkbox" value="6"> CIÊNCIAS JURÍDICAS </label>
+						  </div>
+						   
+						  
+
+						<div class="form-group text-area">
+							<label for="FormControlTextarea5"> OBSERVAÇÕES QUE VOCÊ JULGA PERTINENTES PARA QUE POSSAMOS ENTENDER A SUA DEMANDA E MELHOR IDENTIFICAR SOLUÇÕES E ENCAMINHAMENTOS: </label>
+							<textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+						</div>
+
+						
+							<div class="row">
+							  <div class="col">
+								LINK DE REDE SOCIAL:
+								<input type="text" class="form-control" placeholder="Insira a sua rede social">
+							  </div>
+							  <div class="col">
+								LINK DE SITE:
+								<input type="text" class="form-control" placeholder="Insira o link do seu site">
+							  </div>
+							</div>
+
+                           <!-- <button type="button" class="btn btn-roxo-e rounded mx-auto d-block alinhamento-btn" data-toggle="modal" data-target="#exampleModal"> ENCAMINHAR SOLICITAÇÃO</button> -->
+
+                            <div class="container d-flex justify-content-center my-4">
+                                <div class="d-flex flex-wrap justify-content-center">
+                                    <!-- <a href="" class="m-2"> -->
+                                        <button type="button" class="btn btn-verde-c rounded alinhamento-btn-2" data-toggle="modal" data-target="#exampleModalAceitarSolicitacao">
+                                            ACEITAR SOLICITAÇÃO
+                                        </button>
+                                    <!--</a> -->
+                                    <!--<a href="#" class="m-2"> -->
+                                        <button type="button" class ="btn btn-vermelho-c2 rounded alinhamento-btn-2" data-toggle="modal" data-target="#exampleModalRecusarSolicitacao" >
+                                            RECUSAR SOLICITAÇÃO
+                                        </button>
+                                    <!--</a>-->
+                                </div>
+                            </div>
+
+                            <div class="modal fade" id="exampleModalAceitarSolicitacao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title-aceitar-solicitacao" id="exampleModalLabel">ACEITAR SOLICITAÇÃO</h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <h7 class="corTexto">Selecione um coordenador que irá ficar encarregado para análise da solicitação</h7>
+
+                                            <select class="form-control mt-2 sel-modal">
+
+                                                <option class="opt-modal">NOME: COORDENADOR 1 - ID:3056  </option>
+                                                <option class="opt-modal">NOME: COORDENADOR 2 - ID:5039</option>
+                                                <option class="opt-modal">NOME: COORDENADOR 3 - ID:1092</option>
+                                            </select>
+                                        </div>
+                                        <div class="modal-footer rounded mx-auto d-block">
+                                            <input type="submit" name="enviar" class="btn btn-roxo-c pl-5 pr-5">
+                                        </div>
+                                    </div>
+							    </div>
+							</div>
+
+
+
+
+                            <div class="modal fade" id="exampleModalRecusarSolicitacao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                          <div class="modal-header">
+                                              <h4 class="modal-title-recusar-solicitacao" id="exampleModalLabel">RECUSAR SOLICITAÇÃO</h4>
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                              </button>
+                                          </div>
+                                          <div class="modal-body">
+  
+                                              <h7 class="corTexto">Adicione comentários relacionados à solicitação</h7>
+  
+                                              <div class="form-group text-area" >
+                                                <textarea class="form-control" id="FormControlTextarea1" rows="8" placeholder="Escreva aqui"></textarea>
+                                              </div>
+
+                                          </div>
+                                          <div class="modal-footer rounded mx-auto d-block">
+                                              <input type="submit" name="enviar" class="btn btn-roxo-c pl-5 pr-5">
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                </form>
+
+            </div>
+            
+        </div>
+
+	</section>
+
+
+	<footer id="footer_unicap">
+			
+		<div >
+			<a href="https://portal.unicap.br/">
+				<img src="imagens/footer_unicap.png" class="rounded mx-auto d-block img-fluid" width="900">
+            </a>
+
+		</div>
+
+	</footer>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+		<script src="js/TelaVisualizacaoDaSolicitacaoIntermediador.js"></script>
+	</body>
+
+</html>
