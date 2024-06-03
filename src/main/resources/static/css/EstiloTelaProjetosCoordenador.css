@@ -1,0 +1,105 @@
+.corTexto{
+	color: black;
+}
+
+.corTexto:hover{
+	color: #8453B3;
+}
+
+.btn-roxo-e{
+
+	background-color: #8453B3;
+	color: white;
+}
+
+.btn-roxo-e:hover{
+    background-color: #A373D1;
+}
+
+.btn-roxo-c{
+	background-color: #A373D1;
+	color: white;
+}
+
+.btn-roxo-c:hover{
+    background-color: #8453B3;
+}
+
+
+.caixa{
+	padding: 60px 0px;
+}
+
+.caixa-projeto{
+	margin: 20px 0px;
+}
+
+.espacamento{
+    margin-top: 25px;
+}
+
+.text-area{
+	margin-top: 40px;
+}
+
+.espacamento-observacao{
+    margin-top: 35px;
+}
+
+.alinhamento-btn{
+    margin-top: 20px;
+}
+
+h4, p{
+	color: #8453B3;
+}
+
+.pagina-ativa{
+	color: black;
+	background-color: #CB99FB;
+	padding: 5px 8px;
+	cursor: default;
+	border-radius: 3px;
+}
+
+.espaco-solicitacao{
+	margin-bottom: 10px;
+}
+
+
+a.link-lista{
+	color: black;
+	text-decoration: none;
+}
+
+a.link-lista:hover{
+	border: 1px solid #A373D1;
+}
+
+.negrito{
+	font-weight: bolder;
+}
+
+#footer_unicap{
+    background-color: #690013;
+}
+
+
+html, body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+footer{
+	flex-shrink: 0;
+}
+
+.conteudo{
+	flex: 1 0 auto;
+}
