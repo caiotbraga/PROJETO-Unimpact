@@ -1,6 +1,6 @@
 package com.Unimpact.Unimpact.repository;
 
-import com.unimpact.unimpact.model.Usuario;
+import com.Unimpact.Unimpact.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
