@@ -1,0 +1,101 @@
+.corTexto{
+	color: black;
+}
+
+.corTexto:hover{
+	color: #8453B3;
+}
+
+.btn-roxo-e{
+
+	background-color: #A373D1;
+	color: white;
+}
+
+.btn-roxo-e:hover{
+    background-color: #8453B3;
+}
+
+.btn-roxo-c{
+	background-color: #A373D1;
+	color: white;
+}
+
+.btn-roxo-c:hover{
+    background-color: #8453B3;
+}
+
+.btn-roxo2-c{
+	background-color:#a156e7 ;
+	color: white;
+}
+
+.btn-roxo2-c:hover{
+	background-color: #7d37bf;
+}
+
+
+.caixa{
+	padding: 60px 0px;
+}
+
+.espacamento{
+    margin-top: 25px;
+}
+
+.text-area{
+	margin-top: 40px;
+}
+
+.espacamento-observacao{
+    margin-top: 35px;
+}
+
+.alinhamento-btn{
+    margin-top: 20px;
+}
+
+h4{
+	color: #8453B3;
+}
+
+
+.infos-da-solicitacao{
+    display: flex;
+	flex-direction: column;
+}
+
+.espaco{
+	margin-bottom: 10px;
+}
+
+.negrito{
+	font-weight: bolder;
+}
+
+#footer_unicap{
+    background-color: #690013;
+}
+
+.caixa-solicitacao{
+	margin: 20px 0px;
+}
+
+html, body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+footer{
+	flex-shrink: 0;
+}
+
+.conteudo{
+	flex: 1 0 auto;
+}
