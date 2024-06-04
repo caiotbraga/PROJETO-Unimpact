@@ -1,15 +1,15 @@
 .corTexto{
-	color: black;
+    color: black;
 }
 
 .corTexto:hover{
-	color: #8453B3;
+    color: #8453B3;
 }
 
 .btn-roxo-e{
 
-	background-color: #A373D1;
-	color: white;
+    background-color: #A373D1;
+    color: white;
 }
 
 .btn-roxo-e:hover{
@@ -17,8 +17,8 @@
 }
 
 .btn-roxo-c{
-	background-color: #A373D1;
-	color: white;
+    background-color: #A373D1;
+    color: white;
 }
 
 .btn-roxo-c:hover{
@@ -26,17 +26,17 @@
 }
 
 .btn-roxo2-c{
-	background-color:#a156e7 ;
-	color: white;
+    background-color:#a156e7 ;
+    color: white;
 }
 
 .btn-roxo2-c:hover{
-	background-color: #7d37bf;
+    background-color: #7d37bf;
 }
 
 
 .caixa{
-	padding: 60px 0px;
+    padding: 60px 0px;
 }
 
 .espacamento{
@@ -44,7 +44,7 @@
 }
 
 .text-area{
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
 .espacamento-observacao{
@@ -56,21 +56,21 @@
 }
 
 h4{
-	color: #8453B3;
+    color: #8453B3;
 }
 
 
 .infos-da-solicitacao{
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
 }
 
 .espaco{
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .negrito{
-	font-weight: bolder;
+    font-weight: bolder;
 }
 
 #footer_unicap{
@@ -78,24 +78,42 @@ h4{
 }
 
 .caixa-solicitacao{
-	margin: 20px 0px;
+    margin: 20px 0px;
+}
+
+.cor-texto-remocao{
+    color: #707070;
+}
+
+.cor-titulo-remocao{
+    color: #A71616;
+}
+
+.btn-remover{
+    color: #4C4C4C;
+    background-color: #FAFAFA;
+}
+
+.btn-calcelar{
+    color: white;
+    background-color: #CB99FB;
 }
 
 html, body{
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 footer{
-	flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 .conteudo{
-	flex: 1 0 auto;
+    flex: 1 0 auto;
 }
