@@ -25,6 +25,15 @@
     background-color: #8453B3;
 }
 
+.btn-roxo2-c{
+	background-color:#a156e7 ;
+	color: white;
+}
+
+.btn-roxo2-c:hover{
+	background-color: #7d37bf;
+}
+
 
 .caixa{
 	padding: 60px 0px;

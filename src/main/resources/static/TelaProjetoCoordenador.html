@@ -41,7 +41,7 @@
 						
 						<li class="nav-item">
 
-							<a href="/src/main/resources/static" class="nav-link">
+							<a href="/src/main/resources/static/TelaSeusDadosCoordenador.html" class="nav-link">
                                 <span class="corTexto">SEUS DADOS</span>
 							</a>
 
@@ -105,7 +105,7 @@
 	                    
 	                    <div class="align-self-center"> 
 
-	                        <h4>TÍTULO DO PROJETO 1</h4>
+	                        <h4>TÍTULO DO PROJETO</h4>
 	                        <p class="infos-da-solicitacao mb-1">Código: 0588</p>
 	                        <p class="infos-da-solicitacao mb-1">Escola avaliadora: UNICAP ICAM - TECH</p>
 	                        <p class="infos-da-solicitacao mb-1">Status: concluído</p>
@@ -114,14 +114,59 @@
 	                </div>   
 					
 					<div class="col-md-2">
-	                    <a href="/src/main/resources/static/TelaProjetosCoordenador.html">
-	                        <button class="btn btn-roxo-c">
-	                            EDITAR
-	                        </button>
-	                    </a>
+							<button type="button" class="btn btn-roxo-c rounded alinhamento-btn-2" data-toggle="modal" data-target="#exampleModalEditarProjeto">
+								EDITAR
+							</button>
 	                </div>
 
 	            </div>
+
+				<div class="modal fade" id="exampleModalEditarProjeto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						  <div class="modal-content">
+							  <div class="modal-header">
+								  <h4 class="modal-title-aceitar-solicitacao" id="exampleModalLabel">EDITAR PROJETO</h4>
+								  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								  <span aria-hidden="true">&times;</span>
+								  </button>
+							  </div>
+							  <div class="modal-body">
+
+								  <h7 class="corTexto">Gerencie os indivíduos executores desse projeto</h7>
+								  
+								  <table class="table mt-3">
+									<thead>
+										<tr>
+											<th>Nome</th>
+											<th>Email</th>
+											
+										</tr>
+									</thead>
+									<tbody id="userTableBody">
+										<!-- Linhas de usuários serão adicionadas aqui via JavaScript -->
+									</tbody>
+								</table>
+
+								 <!-- Input para buscar usuário -->
+								 <div class="form-group">
+									
+									<input type="text" id="buscarUsuario" class="form-control" placeholder="Email do novo participante">
+								</div>
+								<button type="button" class="btn btn-roxo2-c" id="buscarUsuarioBtn">ADICIONAR</button>
+			
+								<!-- Lista de usuários encontrados -->
+								<ul id="listaUsuarios" class="list-group mt-3">
+									<!-- Resultados da busca serão adicionados aqui via JavaScript -->
+								</ul>
+								 
+							  </div>
+							  <div class="modal-footer rounded mx-auto d-block">
+								  <!--<input type="submit" name="enviar" class="btn btn-roxo-c pl-5 pr-5"> -->
+								  <button type="button" class="btn btn-roxo-c" id="">SALVAR ALTERAÇÕES</button>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
 
 	            <div class="row">
 	                <div class="col-md-11 d-flex">
