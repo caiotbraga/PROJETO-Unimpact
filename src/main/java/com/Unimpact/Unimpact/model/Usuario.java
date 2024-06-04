@@ -24,16 +24,19 @@ public class Usuario {
     private String complemento;
 
     // Campos do Login
-    private String email;
+    @Column(unique = true)
+    private String email; // Tornando o campo email único
     private String senha;
+
+    // Tipo de Usuario
+    @Enumerated(EnumType.STRING)
+    private TipoUsuario tipoUsuario;
 
     // Construtor padrão
     public Usuario() {}
 
     // Construtor com todos os campos
-    public Usuario(String nome, String cpf, String rg, String telefone1, String telefone2,
-                   String cep, String rua, String estado, String bairro, String numero, String complemento,
-                   String email, String senha) {
+    public Usuario(String nome, String cpf, String rg, String telefone1, String telefone2, String cep, String rua, String estado, String bairro, String numero, String complemento, String email, String senha, TipoUsuario tipoUsuario) {
         this.nome = nome;
         this.cpf = cpf;
         this.rg = rg;
@@ -47,6 +50,7 @@ public class Usuario {
         this.complemento = complemento;
         this.email = email;
         this.senha = senha;
+        this.tipoUsuario = tipoUsuario;
     }
 
     // Getters e Setters
@@ -160,5 +164,13 @@ public class Usuario {
 
     public void setSenha(String senha) {
         this.senha = senha;
+    }
+
+    public TipoUsuario getTipoUsuario() {
+        return tipoUsuario;
+    }
+
+    public void setTipoUsuario(TipoUsuario tipoUsuario) {
+        this.tipoUsuario = tipoUsuario;
     }
 }

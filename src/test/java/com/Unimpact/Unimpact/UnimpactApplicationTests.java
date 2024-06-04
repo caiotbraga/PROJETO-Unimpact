@@ -3,6 +3,7 @@ package com.Unimpact.Unimpact;
 import static org.assertj.core.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.Unimpact.Unimpact.model.Interest;
@@ -18,7 +19,7 @@ class UnimpactApplicationTests {
 	void contextLoads() {
 	}
 
-	@Test
+	@DataJpaTest
     public void testDatabaseConnection() {
         // Testa a conexão com o banco de dados criando e buscando um registro
         Interest interest = new Interest();
