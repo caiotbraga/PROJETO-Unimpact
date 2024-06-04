@@ -1,4 +1,4 @@
-package com.Unimpact.Unimpact.model;
+package com.unimpact.unimpact.model;
 
 public class Usuario {
     private String nome;

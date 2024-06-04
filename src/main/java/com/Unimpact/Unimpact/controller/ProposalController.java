@@ -1,8 +1,8 @@
-package com.Unimpact.Unimpact.controller;
+package com.unimpact.unimpact.controller;
 
 
-import com.Unimpact.Unimpact.model.Proposal;
-import com.Unimpact.Unimpact.repository.ProposalRepository;
+import com.unimpact.unimpact.model.Proposal;
+import com.unimpact.unimpact.repository.ProposalRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

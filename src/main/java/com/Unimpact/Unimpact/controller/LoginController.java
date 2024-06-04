@@ -1,4 +1,4 @@
-package com.Unimpact.Unimpact.controller;
+package com.unimpact.unimpact.controller;
 
 import org.springframework.ui.Model;
 import org.springframework.stereotype.Controller;

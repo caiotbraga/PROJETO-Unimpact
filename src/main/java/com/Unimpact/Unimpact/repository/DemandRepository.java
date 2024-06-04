@@ -1,6 +1,6 @@
-package com.Unimpact.Unimpact.repository;
+package com.unimpact.unimpact.repository;
 
-import com.Unimpact.Unimpact.model.Demand;
+import com.unimpact.unimpact.model.Demand;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface DemandRepository extends JpaRepository<Demand, Long> {

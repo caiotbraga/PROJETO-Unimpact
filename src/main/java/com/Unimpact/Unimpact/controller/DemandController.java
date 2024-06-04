@@ -1,7 +1,7 @@
-package com.Unimpact.Unimpact.controller;
+package com.unimpact.unimpact.controller;
 
-import com.Unimpact.Unimpact.model.Demand;
-import com.Unimpact.Unimpact.repository.DemandRepository;
+import com.unimpact.unimpact.model.Demand;
+import com.unimpact.unimpact.repository.DemandRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

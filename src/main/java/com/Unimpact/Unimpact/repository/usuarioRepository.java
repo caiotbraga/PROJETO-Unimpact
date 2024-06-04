@@ -1,4 +1,4 @@
-package com.Unimpact.Unimpact.repository;
+package com.unimpact.unimpact.repository;
 
 public class usuarioRepository {
 }
