@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.unimpact.unimpact.model.Interest;
-import com.unimpact.unimpact.repository.InterestRepository;
+import com.Unimpact.Unimpact.model.Interest;
+import com.Unimpact.Unimpact.repository.InterestRepository;
 
 @SpringBootTest
 class UnimpactApplicationTests {

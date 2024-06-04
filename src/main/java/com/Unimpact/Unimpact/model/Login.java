@@ -1,4 +1,4 @@
-package com.unimpact.unimpact.model;
+package com.Unimpact.Unimpact.model;
 
 public class Login {
     private String email;

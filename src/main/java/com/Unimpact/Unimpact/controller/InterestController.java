@@ -1,14 +1,14 @@
-package com.unimpact.unimpact.controller;
-
-import com.unimpact.unimpact.exceptions.ResourceNotFoundException;
-import com.unimpact.unimpact.model.Interest;
-import com.unimpact.unimpact.repository.InterestRepository;
+package com.Unimpact.Unimpact.controller;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.Unimpact.Unimpact.exceptions.ResourceNotFoundException;
+import com.Unimpact.Unimpact.model.Interest;
+import com.Unimpact.Unimpact.repository.InterestRepository;
 
 @RestController
 @RequestMapping("/api/interests")
