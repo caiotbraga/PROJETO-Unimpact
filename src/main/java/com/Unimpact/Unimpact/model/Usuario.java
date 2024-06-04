@@ -1,26 +1,63 @@
 package com.Unimpact.Unimpact.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "usuarios")
 public class Usuario {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
     private String nome;
     private String cpf;
     private String rg;
     private String telefone1;
     private String telefone2;
-    private Endereco endereco;
-    private Login login;
 
-    // Construtor
-    public Usuario(String nome, String cpf, String rg, String telefone1, String telefone2, Endereco endereco, Login login) {
+    // Campos do Endereço
+    private String cep;
+    private String rua;
+    private String estado;
+    private String bairro;
+    private String numero;
+    private String complemento;
+
+    // Campos do Login
+    private String email;
+    private String senha;
+
+    // Construtor padrão
+    public Usuario() {}
+
+    // Construtor com todos os campos
+    public Usuario(String nome, String cpf, String rg, String telefone1, String telefone2,
+                   String cep, String rua, String estado, String bairro, String numero, String complemento,
+                   String email, String senha) {
         this.nome = nome;
         this.cpf = cpf;
         this.rg = rg;
         this.telefone1 = telefone1;
         this.telefone2 = telefone2;
-        this.endereco = endereco;
-        this.login = login;
+        this.cep = cep;
+        this.rua = rua;
+        this.estado = estado;
+        this.bairro = bairro;
+        this.numero = numero;
+        this.complemento = complemento;
+        this.email = email;
+        this.senha = senha;
     }
 
     // Getters e Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -61,19 +98,67 @@ public class Usuario {
         this.telefone2 = telefone2;
     }
 
-    public Endereco getEndereco() {
-        return endereco;
+    public String getCep() {
+        return cep;
     }
 
-    public void setEndereco(Endereco endereco) {
-        this.endereco = endereco;
+    public void setCep(String cep) {
+        this.cep = cep;
     }
 
-    public Login getLogin() {
-        return login;
+    public String getRua() {
+        return rua;
     }
 
-    public void setLogin(Login login) {
-        this.login = login;
+    public void setRua(String rua) {
+        this.rua = rua;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public String getBairro() {
+        return bairro;
+    }
+
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
+    public String getComplemento() {
+        return complemento;
+    }
+
+    public void setComplemento(String complemento) {
+        this.complemento = complemento;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 }
